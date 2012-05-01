@@ -8,4 +8,4 @@ A simple drop-in JS script that will prompt your users to allow cookies on your 
 Demo
 =====
 
-A demo can be seen [here](http://michaelwright.me/cPrompt/demo.html).
+A demo can be seen [here](http://michaelwright.me/cPrompt).
