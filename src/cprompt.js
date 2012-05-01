@@ -21,7 +21,7 @@ var cPrompt = {
 
 	loadPrompt: function(){
 		var holder = document.createElement('div');
-		holder.innerHTML = "<div style='margin: 10px;'>This site would like to place cookies on your computer to help make this website better. To find out more about the cookies, visit <a href='http://en.wikipedia.org/wiki/HTTP_cookie' style='color: #FFF;'>Wikipedia</a>.<br /><input type='checkbox' onclick='cPrompt.clickEvent(this);'> I accept cookies from this site.</div>"
+		holder.innerHTML = "<div style='margin: 10px;'>This site would like to place cookies on your computer to help make this website better. To find out more about cookies, visit <a href='http://en.wikipedia.org/wiki/HTTP_cookie' style='color: #FFF;'>Wikipedia</a>.<br /><input type='checkbox' onclick='cPrompt.clickEvent(this);'> I accept cookies from this site.</div>"
 		holder.style.cssText = 'background: #000; position: absolute; width: 100%; color: #FFF; font-family: verdana; font-size: 11px; opacity: 0.85';
 		holder.id = 'cPrompt_Holder';
 		var b = document.getElementsByTagName('body')[0];
